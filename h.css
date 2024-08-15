@@ -1,0 +1,35 @@
+
+h1{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    display: block;
+    text-align: center;
+     color: white;
+
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+
+}
+li {
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+display:block;
+text-align: justify;
+color: white;
+padding: 10px;
+margin: 15px;
+}
+a :hover{
+    color: yellowgreen;
+}
+body {
+   background-color: black;
+}

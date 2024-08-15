@@ -1,0 +1,27 @@
+$
+@mixin default($disp,$align,$c)
+{font-size: $fsz;
+    text-align: $align;
+    color: $c;
+    display: $disp;
+}
+div {
+    padding: 12px;
+    margin: 16px;
+    @include default(block,right,white,24px);
+    p {
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        padding: 20px;
+        margin: 5px;
+     @include default(justify,white,24px);
+
+      }
+  }
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 150px;
+    padding-right: 150px;
+    @include default(block,center,white,45px);
+
+} 

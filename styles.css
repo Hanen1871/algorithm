@@ -1,0 +1,37 @@
+a {
+color: red;
+}
+a:visited{
+    color: blueviolet;
+}
+div:hover{
+    color: blue;
+}
+tr:nth-child(2n+1){
+    background-color: blueviolet;
+
+}
+tr:nth-child(2n){
+    background-color: pink;
+
+}
+tr:nth-child(odd){
+    background-color: blueviolet;
+
+}
+div{
+    font-size:  24px; 
+    font-weight: ;
+    text-align: center;
+    text-decoration:  ;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/eb/93/c7/eb93c7d9d24ceaf0129a988bb88342ac.jpg)
+}
+
+article > p{
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+} 
